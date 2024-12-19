@@ -18,10 +18,10 @@ jobs:
       # The switches
       switches: -avzr --delete
       # The remote path
-      remote_path: /var/www/html/
+      remote_path: /var/www/html/CI.CD
       # The remote host
-      remote_host: testuser
+      remote_host: 34.41.222.115
       # The remote user
-      remote_user: 
+      remote_user: testuser
       # The remote key
       remote_key: ${{ secrets.DEPLOY_KEY_PRIVATE}}
